@@ -18,7 +18,7 @@ template.innerHTML = `
 `;
 
 
-class LionaSpeechInput extends HTMLElement {
+class LionaSlideshow extends HTMLElement {
 
     constructor() {
         super();  // immer zuerst aufrufen
@@ -91,7 +91,7 @@ class LionaSpeechInput extends HTMLElement {
 
 }
 
-export {LionaSpeechInput}
+export {LionaSlideshow}
 
 
 

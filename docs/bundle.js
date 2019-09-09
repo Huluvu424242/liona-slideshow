@@ -90,9 +90,9 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _liona_speech_input__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _liona_slideshow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
-window.customElements.define('liona-speech-input', _liona_speech_input__WEBPACK_IMPORTED_MODULE_0__["LionaSpeechInput"]);
+window.customElements.define('liona-slideshow', _liona_slideshow__WEBPACK_IMPORTED_MODULE_0__["LionaSlideshow"]);
 
 /***/ }),
 /* 1 */
@@ -100,7 +100,7 @@ window.customElements.define('liona-speech-input', _liona_speech_input__WEBPACK_
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LionaSpeechInput", function() { return LionaSpeechInput; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LionaSlideshow", function() { return LionaSlideshow; });
 /* harmony import */ var _log_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var _speech_input__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var _speech_output__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
@@ -138,17 +138,17 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 var template = document.createElement('template');
 template.innerHTML = "\n     <style>\n         \n     </style>\n    <div>\n      <label for=\"eingabefeld\">Suchbegriffe:</label>\n      <input id=\"eingabefeld\">\n      <button id=\"microphon-button\"><em>Freie Spracheingabe starten ...</em></button>\n      <button id=\"reader-button\"><em>Suchkriterien vorlesen</em></button>\n    </div>\n";
 
-var LionaSpeechInput =
+var LionaSlideshow =
 /*#__PURE__*/
 function (_HTMLElement) {
-  _inherits(LionaSpeechInput, _HTMLElement);
+  _inherits(LionaSlideshow, _HTMLElement);
 
-  function LionaSpeechInput() {
+  function LionaSlideshow() {
     var _this;
 
-    _classCallCheck(this, LionaSpeechInput);
+    _classCallCheck(this, LionaSlideshow);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(LionaSpeechInput).call(this)); // immer zuerst aufrufen
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(LionaSlideshow).call(this)); // immer zuerst aufrufen
     // for init attribut defaults
     // e.g. this.src = '';
 
@@ -156,7 +156,7 @@ function (_HTMLElement) {
     return _this;
   }
 
-  _createClass(LionaSpeechInput, [{
+  _createClass(LionaSlideshow, [{
     key: "connectedCallback",
     value: function connectedCallback() {
       _log_helper__WEBPACK_IMPORTED_MODULE_0__["Logger"].logMessage('custom element in Seite eingehängt');
@@ -219,7 +219,7 @@ function (_HTMLElement) {
 
   }]);
 
-  return LionaSpeechInput;
+  return LionaSlideshow;
 }(_wrapNativeSuper(HTMLElement));
 
 

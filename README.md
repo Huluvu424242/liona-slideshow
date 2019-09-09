@@ -1,18 +1,18 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/liona-speech-input)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/liona-slideshow)
 
-# liona-speech-input
+# liona-slideshow
 
 Die Webkomponente realisiert ein input tag mit Button zur Sprachein- und ausgabe.
 
 ## Installation
 
-npm install --save liona-speech-input
+npm install --save liona-slideshow
 
 ## Verwendung
 
 ```html
-<script type="module" src="node_modules/liona-speech-input/dist/index.bundle.js">
-    window.customElements.define('liona-speech-input', LionaSpeechInput);
+<script type="module" src="node_modules/liona-slideshow/dist/index.bundle.js">
+    window.customElements.define('liona-slideshow', LionaSlideshow);
 </script>
 ```
 Zur [Demo Seite](https://funthomas424242.github.io/liona/index.html)
@@ -30,9 +30,9 @@ Zur [Demo Seite](https://funthomas424242.github.io/liona/index.html)
 ```
 -->
 ```html
-<liona-speech-input></liona-speech-input>
+<liona-slideshow></liona-slideshow>
 ```
-Zur [Live-Demo](https://funthomas424242.github.io/liona-speech-input/)
+Zur [Live-Demo](https://funthomas424242.github.io/liona-slideshow/)
 
 
 ## Mitarbeit
