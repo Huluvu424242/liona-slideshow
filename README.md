@@ -2,7 +2,7 @@
 
 # liona-slideshow
 
-Die Webkomponente realisiert ein input tag mit Button zur Sprachein- und ausgabe.
+Die Webkomponente realisiert einen Viewer für Präsentationen
 
 ## Installation
 
@@ -45,25 +45,12 @@ Zur [Live-Demo](https://funthomas424242.github.io/liona-slideshow/)
 
 ## Releaselog
 
-### v0.0.2
-
-* Homepage gesetzt
-* Bugfixes um Nutzung der Webkomponente zu ermöglichen
-
 ### v0.0.1
 
-* Initiales Projektsetup basierend auf https://github.com/FunThomas424242/webspeech.example
+* Initiales Projektsetup basierend auf https://github.com/FunThomas424242/liona-speech-input
 
 ## Quellen
 
-* https://zellwk.com/blog/publish-to-npm/
-* https://medium.com/@svinkle/getting-started-with-webpack-and-es6-modules-c465d053d988
-* https://github.com/educastellano/qr-code
-* https://flaviocopes.com/es-modules/
-* https://www.sitepoint.com/understanding-es6-modules/
-* https://medium.com/javascript-in-plain-english/create-micro-frontends-using-web-components-with-support-for-angular-and-react-2d6db18f557a
-* https://www.cheatography.com/funthomas424242/cheat-sheets/webcomponents-native-javscript/
-* https://dev.to/bennypowers/lets-build-web-components-part-3-vanilla-components-4on3
 
 
 ## Garantien
