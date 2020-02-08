@@ -13,7 +13,7 @@
     "start-watch": "webpack -d --watch",
     "start-server": "webpack-dev-server",
     "build": "npm run clean && webpack --production && cp -af dist/index.bundle.js docs/bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
