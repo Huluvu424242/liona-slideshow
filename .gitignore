@@ -61,4 +61,7 @@ typings/
 .next
 
 # IDEA
-/.idea
+.idea/
+./github/
+
+
