@@ -15,7 +15,7 @@ npm install --save liona-slideshow
     window.customElements.define('liona-slideshow', LionaSlideshow);
 </script>
 ```
-Zur [Demo Seite](https://funthomas424242.github.io/liona-slideshow/index.html)
+Zur [Demo Seite](https://huluvu424242.github.io/liona-slideshow/index.html)
 
 ## Demo
 
@@ -32,7 +32,7 @@ Zur [Demo Seite](https://funthomas424242.github.io/liona-slideshow/index.html)
 ```html
 <liona-slideshow></liona-slideshow>
 ```
-Zur [Live-Demo](https://funthomas424242.github.io/liona-slideshow/)
+Zur [Live-Demo](https://huluvu424242.github.io/liona-slideshow/)
 
 
 ## Mitarbeit
