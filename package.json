@@ -38,7 +38,7 @@
     "babel-loader": "10.1.1",
     "concurrently": "7.6.0",
     "http-server": "14.1.1",
-    "webpack": "4.39.2",
+    "webpack": "5.109.2",
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "6.0.0"
   }
