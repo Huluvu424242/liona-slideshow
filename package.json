@@ -33,9 +33,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
-    "babel-loader": "8.0.6",
+    "@babel/core": "8.0.1",
+    "@babel/preset-env": "8.0.2",
+    "babel-loader": "10.1.1",
     "concurrently": "7.6.0",
     "http-server": "14.1.1",
     "webpack": "4.39.2",
